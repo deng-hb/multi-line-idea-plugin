@@ -33,7 +33,7 @@ public class MultiLineHighlighter implements Annotator {
         KEYWORDS.addAll(Arrays.asList(" and ", " or ", " > ", " < ", " <= ", " >= ", " not ", " desc", " asc", " between", " union ", " is ", " null"));
         KEYWORDS.addAll(Arrays.asList("limit ", " like ", " case ", " when ", " else ", " end"));
 
-        FUNCTIONS.addAll(Arrays.asList("count(", "sum(", "avg(", "min(", "max(", "avg("));
+        FUNCTIONS.addAll(Arrays.asList("count(", "sum(", "avg(", "min(", "max(", "avg(", "concat(", "date_format(", "date_sub(", "date_add(", "now("));
     }
 
     @Override
